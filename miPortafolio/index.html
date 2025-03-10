@@ -1,0 +1,51 @@
+
+
+<!--atajos EMMET
+html: Genera la estructura básica de un documento HTML.
+ul>li*5: Crea una lista no ordenada con cinco elementos de lista.
+div>h1+p: Crea una div que contiene un encabezado (h1) seguido de un párrafo (p).
+input[type=text]+input[type=password]: Crea dos campos de entrada, uno para texto y otro para contraseña.
+-->
+
+
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Portafolio</title>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>        
+        <header class="header">            
+                <nav class="nav">
+                    <a class="nav" href="index.html">Home</a>
+                    <a class="nav" href="curriculum.html">Curriculum</a>                         
+                </nav>
+        </header>
+        <main>
+            <div class="borde">                
+                <h1 class="tituloPortafolio">Portafolio de<strong class="puntitos">:</strong></h1><br>
+                <h2 id="miNombre"><a id="sobreMi" href="sobreMi.html">Antonio Fuentes</h2></a><br>   
+                <img id="io" src="./assets/1.jpeg" alt="io" alt="Antonio Fuentes">
+            </div><!--fin del borde-->
+                        
+        
+            <div class="curso">
+                <br>     
+                <p class="cursoo"><strong>Curso en </strong><strong class="puntitos">:</strong><a class="alura" href="https://app.aluracursos.com"> Alura Latam</a></p>
+                    
+                <ol>De <strong class="puntitos">:</strong><br>
+                    <li><a class="alura" href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+                    <li><a class="alura" href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+                    <li><a class="alura" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+                </ol>
+            </div>
+            <br>           
+        </main>
+            
+        <footer class="footer">
+            Febrero 2025
+        </footer>
+    </body>
+</html>

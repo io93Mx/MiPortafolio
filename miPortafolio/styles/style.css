@@ -1,0 +1,300 @@
+
+
+/*(. es para clase, # es para id)*/
+/*1 rem = siempre a 16px*/
+/*1 em = depende del elemento padre e hijo*/
+
+
+
+/*importaciones*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); /*importa el estilo de letra*/
+
+:root { /*declaarar variables en CSS*/
+    --color-primario: #04044f;
+    --color-secundario: #FF5733;
+    --color-terciario: #00FF00;
+    --color-cuarto: #f6f6f6;
+    --color-quinto: #1e1b1b55;
+    --color-sexto: #3e5ba0;
+    --color-septimo: red;
+    --color-octavo: gold;
+    --color-noveno: cornflowerblue;
+
+    --fuente-titulo: 'Krona One', sans-serif;
+    --fuente-texto: 'Montserrat', serif;
+}
+* { /*elimina el formato de todo el archivo html*/
+    margin: 0;
+    padding: 0;
+}
+
+/*barra de navegacion*/
+.header {
+    
+    background-color: var(--color-primario);
+    padding: 0.6rem;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-secundario);  
+    
+}
+.nav:hover {
+    color: var(--color-terciario);
+}
+
+/*cuerpo*/
+body {
+    
+    box-sizing: border-box; /*mantiene los elementos dentro de la caja*/
+    background-color: var(--color-sexto);
+    color: var(--color-primario);
+    font-family: var(--fuente-texto);
+    line-height: 1.5; /*separacion de texto a texto*/ 
+    font-size: 1.5rem; /*1.5 = 24px*/
+    margin-top: 1%;
+    width: 100%; 
+    
+}
+.borde {
+    background-color: var(--color-quinto);
+    padding-top: 1%;
+    padding-bottom: 3%;
+   
+}
+.puntitos {
+    color: var(--color-terciario);
+    font-size: 1.5rem;
+}
+
+/*enlace sobre mi*/
+#miNombre { /*h2*/
+    text-align: center;
+}
+#sobreMi {
+    text-decoration: none; 
+    background-color: transparent;
+    color: transparent;
+    border: 0.2rem solid var(--color-secundario);
+    padding: 0.6rem;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+#sobreMi:hover { /*cambia el color del boton cuando el cursor pasa encima*/
+    background-color: var(--color-primario);
+    cursor: pointer; /*pone un dedo indice tambien*/
+    color: var(--color-terciario);
+}
+
+/*titulos*/
+.tituloPortafolio {
+    text-align: center;
+    color: var(--color-cuarto);
+}
+.tituloCurriculum {
+    text-align: center;
+    color: var(--color-cuarto);
+}
+#io { /*imagen*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 350px; 
+}
+
+/*curso de alura*/
+.curso {
+    margin-left: 1rem;    
+}
+.cursoo {
+    text-align: left;
+    color: var(--color-primario);
+}
+ol {
+padding-left: 1.3rem;}
+.alura {
+    text-decoration: none;
+    color: var(--color-secundario);
+}
+.alura:hover {
+    color: var(--color-terciario);
+}
+.urgente {
+    color: var(--color-septimo);
+}
+.alura1 {
+    text-decoration: none;
+    color: var(--color-terciario);
+}
+.alura1:hover {
+    color: var(--color-septimo);
+}
+
+/*footer*/
+.footer {
+    background-color: var(--color-noveno);
+    color: var(--color-cuarto);
+    padding: 1rem 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+   
+}
+.footer:hover {
+    color: var(--color-octavo);
+}
+
+
+
+
+
+/*curriculum.html*/
+p {
+    text-align: center;
+    color: var(--color-secundario);
+   
+}
+.li-curri {
+    text-align: left;
+    color: var(--color-secundario);
+}
+
+.columnaa {
+    background-color: var(--color-quinto);
+    padding: 1.8rem;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;    
+    gap: 1.3rem;    
+    border: 0.3rem var(--color-primario) double;
+    box-sizing: border-box;
+    width: 100%; 
+}
+.lineaa {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.linea {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    justify-content: stretch;
+    box-sizing: border-box; /*mantiene los elementos dentro de la caja*/
+    width: 100%; 
+    
+}
+.columna {
+    background-color: var(--color-quinto);
+    padding: 1.9rem;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    gap: 1.5rem;    
+    border: 0.3rem var(--color-primario) double;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+}
+.datos {   
+    box-sizing: border-box;
+    width: 25%;
+}
+.generales {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 75%;
+}
+
+
+
+
+
+/*sobreMi.html*/
+h1 {
+    text-align: center;
+    color: var(--color-cuarto);
+}
+.mainRedes {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.rem; /*separacion entre elementos, no hace nada*/
+    padding: 0.7rem;
+
+}
+.redesSociales {
+    font-family: var(--fuente-titulo);
+    font-weight: 400; /*no hace nada*/
+    font-size: 2.1rem;
+    color: var(--color-cuarto);
+    text-align: center;
+}
+.enlacesLink {
+    width: 25rem;
+    /*background-color: #22d4fd;*/
+    text-align: center;
+    padding: 1.5rem 0; /*arriba/abajo, lados*/
+    border-radius: 1.5rem;
+    font-family: var(--fuente-texto);
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-decoration: none; /*sin subrayado en el enlace*/
+    color: var(--color-primario); /*color del texto del boton, ya no es el de default*/
+    border: 0.3rem solid var(--color-terciario);
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem; /*no hace nada*/
+}
+.enlacesLink:hover { /*cambia el color del boton cuando el cursor pasa encima*/
+    background-color: var(--color-primario);
+    color: var(--color-terciario);
+    border: none;
+}
+
+/*cuando la pantalla tenga 1200px de ancho*/
+/*@media (max-width:400px) and (min-width:800px)   son ambos*/
+@media (max-width: 1200px) {
+    .linea {
+        flex-direction: column;
+    }
+    .datos {
+        width: auto;
+        justify-content: center;
+    }
+    .generales {
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .columna {
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainRedes {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
