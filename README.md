@@ -6,9 +6,11 @@
 
 <h3>Este es el portafolio de: Antonio Fuentes<br><br></h3>
 
-<em>De que trata:<em><br><br>
+<a href="https://io93mx.github.io/MiPortafolio/">Portafolio</a>
 
-<p>Trata sobre mi curriculum. :)</p>
+<em>De que trata:<em><br>
+
+<p>Sobre mi curriculum. :)</p>
 
 
 <h3> Insignias </h3>
