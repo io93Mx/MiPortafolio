@@ -63,7 +63,7 @@
 <h3> Desarrolladores del Proyecto y Personas Contribuyentes </h3>
 
 <a href="https://github.com/io93Mx">io93Mx</a><br>
-<a href="https://github.com/">Barbara Santos</a>
+<a href="https://github.com/Barbara796">Barbara Dos Santos</a>
 
 
 <!--
